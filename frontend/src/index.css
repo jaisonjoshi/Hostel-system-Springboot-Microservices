@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+
+.tags::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .tags {
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+  }
